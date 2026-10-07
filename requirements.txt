@@ -1,0 +1,6 @@
+# Backend (FastAPI + PydanticAI). Install from the repo root:
+#   python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+python-dotenv==1.2.4
+pydantic-ai-slim[openai]==2.54.0
